@@ -1,0 +1,196 @@
+﻿<Page
+    x:Class="A6WWP.howto"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A6WWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="#FF00AEEF">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot">
+            <Pivot x:Uid="Pivot" Title="HOWTO" CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 1" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise1" Source="/Assets/a6w/1_3.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift your right leg and bend your knee to right angle" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Lift your upper torso to contract abdominal muscles and hold the lifts knee with your hands" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="3" Text="4. Return to starting position" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="4" Text="5. Repeat the excercise with the other leg" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 2" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise2" Source="/Assets/a6w/2_1.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift both legs and bend your knee to right angle" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Lift your upper torso to contract abdominal muscles and hold both knees" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="3" Text="4. Return to starting position" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 3" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise3" Source="/Assets/a6w/3_1.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift your right leg and bend your knee to right angle" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Lift your upper torso to contract abdominal muscles and lift your hands gently to the temple" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="3" Text="4. Return to starting position" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="4" Text="5. Repeat the excercise with the other leg" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 4" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise4" Source="/Assets/a6w/4_1.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift your both leg and bend your knee to right angle" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Lift your upper torso to contract abdominal muscles and lift your hands gently to the temple" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="3" Text="4. Return to starting position" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 5" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise5" Source="/Assets/a6w/5_1.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift your right leg and bend your knee to right angle, left leg should be slightly above the ground" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Lift your upper torso to contract abdominal muscles and lift your hands gently to the temple" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="3" Text="4. Repeat the excercise with the other leg" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Uid="PivotItem1" Header="Exercise 6" CommonNavigationTransitionInfo.IsStaggerElement="True" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0" BorderThickness="0,5,0,5" BorderBrush="#FFF">
+                            <Image x:Name="exercise6" Source="/Assets/a6w/6_1.png"/>
+                        </Border>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Margin="10,10,0,0" Grid.Row="0" Text="1. Lift your upper torso to contract abdominal muscles and lift both your legs straight and touch your knee with your hands" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="1" Text="2. Hold still for 3 seconds" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+                                <TextBlock Margin="10,5,0,0" Grid.Row="2" Text="3. Return to starting position" TextWrapping="Wrap" TextAlignment="Left" FontSize="25"/>
+
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+    </Grid>
+</Page>

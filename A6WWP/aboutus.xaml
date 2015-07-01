@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="A6WWP.aboutus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A6WWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF00AEEF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Margin="10,3,0,0" Text="About Us" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <Border Grid.Row="1" BorderThickness="0,5,0,20" BorderBrush="#FFF">
+            <Grid Margin="0,30,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="245"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Info:" FontSize="30" Grid.Column="0" TextAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="A6W Training will help you strength your abdominal muscles and improve their sculptures, training was based on 'Aerobic Weider Six'." FontSize="30" Grid.Column="1" TextAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Author:" FontSize="30" Grid.Column="0" TextAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="SHTP-TRAINING" FontSize="30" Grid.Column="1" TextAlignment="Left" Margin="10,0,0,0"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Phone:" FontSize="30" Grid.Column="0" TextAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="+84 8 3736 0052" FontSize="30" Grid.Column="1" TextAlignment="Left" Margin="10,0,0,0"/>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Code by:" FontSize="30" Grid.Column="0" TextAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="tungnt92" FontSize="30" Grid.Column="1" TextAlignment="Left" Margin="10,0,0,0"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

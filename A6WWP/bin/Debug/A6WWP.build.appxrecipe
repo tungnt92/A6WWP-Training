@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TUNGNGUYEN</Machine>
+    <WindowsUser>Tung</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d6568a31-588e-4b2b-b299-8ebfda452ec2</PackageIdentityName>
+    <IntermediateOutputPath>E:\AppProject\A6WWP\A6WWP\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\A6WWP.exe">
+      <PackagePath>A6WWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\1.mp3">
+      <PackagePath>Assets\a6w\1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\2.mp3">
+      <PackagePath>Assets\a6w\2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\3.mp3">
+      <PackagePath>Assets\a6w\3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\4.mp3">
+      <PackagePath>Assets\a6w\4.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\5.mp3">
+      <PackagePath>Assets\a6w\5.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\beep-07.mp3">
+      <PackagePath>Assets\a6w\beep-07.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\down.mp3">
+      <PackagePath>Assets\a6w\down.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex1.mp3">
+      <PackagePath>Assets\a6w\ex1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex2.mp3">
+      <PackagePath>Assets\a6w\ex2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex3.mp3">
+      <PackagePath>Assets\a6w\ex3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex4.mp3">
+      <PackagePath>Assets\a6w\ex4.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex5.mp3">
+      <PackagePath>Assets\a6w\ex5.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\ex6.mp3">
+      <PackagePath>Assets\a6w\ex6.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\get ready.mp3">
+      <PackagePath>Assets\a6w\get ready.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\go.mp3">
+      <PackagePath>Assets\a6w\go.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\switch.mp3">
+      <PackagePath>Assets\a6w\switch.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\up.mp3">
+      <PackagePath>Assets\a6w\up.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\1_1.png">
+      <PackagePath>Assets\a6w\1_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\1_2.png">
+      <PackagePath>Assets\a6w\1_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\1_3.png">
+      <PackagePath>Assets\a6w\1_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\2_1.png">
+      <PackagePath>Assets\a6w\2_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\3_1.png">
+      <PackagePath>Assets\a6w\3_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\3_2.png">
+      <PackagePath>Assets\a6w\3_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\4_1.png">
+      <PackagePath>Assets\a6w\4_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\5_1.png">
+      <PackagePath>Assets\a6w\5_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\5_2.png">
+      <PackagePath>Assets\a6w\5_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\6_1.png">
+      <PackagePath>Assets\a6w\6_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\how to.png">
+      <PackagePath>Assets\a6w\how to.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\a6w\logo.png">
+      <PackagePath>Assets\a6w\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\about.png">
+      <PackagePath>Assets\about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\go.png">
+      <PackagePath>Assets\go.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\how to.png">
+      <PackagePath>Assets\how to.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\logo106.png">
+      <PackagePath>Assets\logo106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\logo120.png">
+      <PackagePath>Assets\logo120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\logo150.png">
+      <PackagePath>Assets\logo150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\logo170.png">
+      <PackagePath>Assets\logo170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\logo360.png">
+      <PackagePath>Assets\logo360.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\pause.png">
+      <PackagePath>Assets\pause.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\start.png">
+      <PackagePath>Assets\start.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\statistic.png">
+      <PackagePath>Assets\statistic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\A6WWP.xr.xml">
+      <PackagePath>A6WWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\aboutus.xbf">
+      <PackagePath>aboutus.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\howto.xbf">
+      <PackagePath>howto.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\AppProject\A6WWP\A6WWP\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
